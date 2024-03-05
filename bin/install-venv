@@ -1,0 +1,4 @@
+PYTHON=/usr/local/bin/python3.9
+
+./venv/bin/pip uninstall hosts2blackhole
+./venv/bin/pip install dist/hosts2blackhole-0.0.1-py3-none-any.whl
