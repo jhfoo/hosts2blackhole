@@ -1,6 +1,6 @@
 PYTHON=/usr/local/bin/python3.9
 
-echo "[ Task ] Removing excisting venv/"
+echo "[ Task ] Removing existing venv/"
 rm -rf venv
 
 echo "[ Task ] Install venv/"
