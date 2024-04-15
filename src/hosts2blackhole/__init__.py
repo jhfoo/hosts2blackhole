@@ -9,7 +9,7 @@ FILE_HOSTS = 'blacklist'
 DEF_FILE_OUT = 'blacklist.conf'
 
 def parseLine(line):
-  matches = re.search(r'^([\.\d]+)\s(.+)', line)
+  matches = re.search(r'^([\.\d]+)\s([^\s#]+)', line)
   if matches:
     return {
       "address": matches.group(1),
